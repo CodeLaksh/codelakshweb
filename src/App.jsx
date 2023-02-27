@@ -21,7 +21,7 @@ const App=()=>{
         <Route exact path="/about" component={About}/>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/service" component={Service}/>
-        <Redirect to="/ "/>
+        <Redirect to="/"/>
         </Switch>
         <Footer/>
         </div>

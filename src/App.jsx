@@ -7,6 +7,7 @@ import Service from "./Service";
 import Contact from "./Contact";
 import About from "./About";
 import Footer from "./Footer";
+import Chatbot from "./Chatbot";
 
 const App=()=>{
     return (
@@ -24,6 +25,7 @@ const App=()=>{
         <Redirect to="/"/>
         </Switch>
         <Footer/>
+        <Chatbot/>
         </div>
             </div>
         </div>

@@ -27,7 +27,7 @@ export default function Header() {
       <div className="container">
         <nav className="navbar">
           <a href="#home" className="logo">
-            <Image src="/logo.png" alt="CodeLaksh logo" width={36} height={29} priority />
+            <Image src="/logo-white.png" alt="CodeLaksh logo" width={36} height={29} priority />
             <span>CodeLaksh</span>
           </a>
           <ul className={`nav-menu ${menuOpen ? 'active' : ''}`} id="navMenu">

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <a href="#home" className="logo">
-              <Image src="/logo.png" alt="CodeLaksh logo" width={36} height={29} />
+              <Image src="/logo-white.png" alt="CodeLaksh logo" width={36} height={29} />
               <span>CodeLaksh</span>
             </a>
             <p>
